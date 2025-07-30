@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num=145;
+    int sum=0;
+    while (num>0)
+    {
+        int mod=num%10;
+        num/=10;
+        sum+=mod; 
+    
+    }
+    cout<<sum;
+    return 0;
+}
