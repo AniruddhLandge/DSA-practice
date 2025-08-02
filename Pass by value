@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+void change(int a){
+    cout<<"in function\n";
+    a=a*2;
+    cout<<a<<endl;
+}
+int main(){
+    int a= 5;
+   change(a);
+   cout<<"in main\n";
+   
+   cout<<a;
+   return 0;
+}
